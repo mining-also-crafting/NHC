@@ -1,0 +1,7 @@
+{
+    "parent": "item/waxed_trapdoor",
+    "textures": {
+        "copper": "block/copper_trapdoor",
+        "waxed": "block/honey_block_bottom"
+    }
+}

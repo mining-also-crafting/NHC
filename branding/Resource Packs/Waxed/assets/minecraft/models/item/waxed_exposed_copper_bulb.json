@@ -1,0 +1,7 @@
+{
+    "parent": "item/waxed_block",
+    "textures": {
+        "copper": "block/exposed_copper_bulb",
+        "waxed": "block/honey_block_bottom"
+    }
+}
