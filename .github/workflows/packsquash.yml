@@ -1,0 +1,103 @@
+name: PackSquash
+
+on:
+  push:
+    tags:
+      - '**'
+
+jobs:
+  packsquash:
+    name: PackSquash
+    runs-on: ubuntu-latest
+    steps:
+      - name: Clone repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Output directory
+        run: mkdir -p /tmp/output
+
+#      - name: Squash Minecraft
+#        uses: ComunidadAylas/PackSquash-action@v4
+#        with:
+#          packsquash_version: 'v0.4.0'
+#          options: |
+#            pack_directory = "branding/Resource Packs/Minecraft"
+#            output_file_path = "/tmp/output/1.21.2_Minecraft.zip"
+#          artifact_name: 1.21.2_Minecraft.zip
+
+#      - name: Squash Panorama
+#        uses: ComunidadAylas/PackSquash-action@v4
+#        with:
+#          packsquash_version: 'v0.4.0'
+#          options: |
+#            pack_directory = "branding/Resource Packs/Panorama"
+#            output_file_path = "/tmp/output/Panorama.zip"
+#          artifact_name: Panorama.zip
+
+      - name: Squash Señor Bumbo Cacteeni
+        uses: ComunidadAylas/PackSquash-action@v4
+        with:
+          packsquash_version: 'v0.4.0'
+          options: |
+            pack_directory = "Señor Bumbo Cacteeni"
+            output_file_path = "/tmp/output/Señor_Bumbo_Cacteeni.zip"
+          artifact_name: Señor_Bumbo_Cacteeni.zip
+
+#      - name: Squash Tweaks
+#        uses: ComunidadAylas/PackSquash-action@v4
+#        with:
+#          packsquash_version: 'v0.4.0'
+#          options: |
+#            pack_directory = "branding/Resource Packs/Tweaks"
+#            output_file_path = "/tmp/output/Tweaks.zip"
+#          artifact_name: Tweaks.zip
+
+#      - name: OptiFine folder
+#        run: |
+#          cd "branding/Resource Packs/Tweaks" && zip -ur /tmp/output/Tweaks.zip assets/minecraft/optifine
+
+
+#      - name: Squash Waxed
+#        uses: ComunidadAylas/PackSquash-action@v4
+#        with:
+#          packsquash_version: 'v0.4.0'
+#          options: |
+#            pack_directory = "branding/Resource Packs/Waxed"
+#            output_file_path = "/tmp/output/Waxed.zip"
+#          artifact_name: Waxed.zip
+
+      - name: Combined assets directory
+        run: mkdir -p Packwiz/resourcepacks/NHC/assets
+
+      - name: Combine assets
+        run: |
+          cp -r "branding/Resource Packs/Minecraft/assets/"* Packwiz/resourcepacks/NHC/assets/
+          cp -r "branding/Resource Packs/Panorama/assets/"* Packwiz/resourcepacks/NHC/assets/
+          cp -r "branding/Resource Packs/Tweaks/assets/"* Packwiz/resourcepacks/NHC/assets/
+          cp -r "branding/Resource Packs/Waxed/assets/"* Packwiz/resourcepacks/NHC/assets/
+
+      - name: Where pack.mcmeta
+        run: |
+          if [ ! -f Packwiz/resourcepacks/NHC/pack.mcmeta ]; then
+            echo '{ "pack": { "pack_format": 34, "description": "NHC Client Resources v.1.0.0" } }' > Packwiz/resourcepacks/NHC/pack.mcmeta
+          fi
+
+      - name: Squash combined assets
+        uses: ComunidadAylas/PackSquash-action@v4
+        with:
+          packsquash_version: 'v0.4.0'
+          options: |
+            pack_directory = "Packwiz/resourcepacks/NHC"
+            output_file_path = "/tmp/output/NHC_Resources.zip"
+          artifact_name: NHC_Resources.zip
+
+      - name: OptiFine folder
+        run: |
+          cd "Packwiz/resourcepacks/NHC" && zip -ur /tmp/output/NHC_Resources.zip assets/minecraft/optifine
+
+      - name: Add .zip to release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: /tmp/output/*.zip

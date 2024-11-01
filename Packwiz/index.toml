@@ -1,2 +1,11 @@
 hash-format = "sha256"
-files = []
+
+[[files]]
+file = "resourcepacks/nhc-resources.pw.toml"
+hash = "81f57f5d936de30f2bb8ca6d8cf50027f27a39a7aebbfdd9a0be68203901fdad"
+metafile = true
+
+[[files]]
+file = "resourcepacks/senor-bumbo-cacteeni.pw.toml"
+hash = "a63fcce307127f14e8455a90264cfa4ba337a52c6321e6e2e38254ede221f5ce"
+metafile = true
