@@ -1,0 +1,12 @@
+{
+  "Colors": {
+  },
+  "Generic": {"toolItem": "minecraft:echo_shard"},
+  "Hotkeys": {
+    "openGuiMainMenu": {
+      "keys": "F12"
+    }
+  },
+  "InfoOverlays": {},
+  "Visuals": {}
+}

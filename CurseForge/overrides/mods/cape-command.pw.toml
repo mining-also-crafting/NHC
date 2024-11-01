@@ -1,0 +1,13 @@
+name = "Cape Command"
+filename = "capecommand-0.1.2-1.21.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/Ck0I4Uep/versions/EhQrEk4l/capecommand-0.1.2-1.21.jar"
+hash-format = "sha1"
+hash = "1cd27af144ea3d2233deb25931e7cbee6058c1e3"
+
+[update]
+[update.modrinth]
+mod-id = "Ck0I4Uep"
+version = "EhQrEk4l"

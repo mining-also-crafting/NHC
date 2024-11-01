@@ -1,0 +1,29 @@
+{
+  "slimeEnabled": true,
+  "slimeColor": {
+    "field_24364": 8978297
+  },
+  "chargeEnabled": true,
+  "sparkleEnabled": false,
+  "soulEnabled": true,
+  "waterCircles": {
+    "density": 10,
+    "radius": 16,
+    "enabled": false,
+    "colored": false
+  },
+  "hitParticlesEnabled": true,
+  "hitParticleEntries": [
+    "minecraft:bogged/visuality:bone",
+    "minecraft:skeleton/visuality:bone",
+    "minecraft:skeleton_horse/visuality:bone",
+    "minecraft:stray/visuality:bone",
+    "minecraft:wither_skeleton/visuality:wither_bone",
+    "minecraft:chicken/visuality:feather",
+    "minecraft:villager/visuality:emerald"
+  ],
+  "shinyArmorEnabled": false,
+  "shinyArmorEntries": [],
+  "shinyBlocksEnabled": false,
+  "shinyBlockEntries": []
+}

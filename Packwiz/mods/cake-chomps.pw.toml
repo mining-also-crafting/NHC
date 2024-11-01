@@ -1,0 +1,13 @@
+name = "Cake Chomps"
+filename = "cakechomps-fabric-10.0.1+1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/g646EoqQ/versions/e0MOX2WB/cakechomps-fabric-10.0.1%2B1.21.1.jar"
+hash-format = "sha1"
+hash = "4c99ae9b6cd5768b02d0ba3094dd3746574f5534"
+
+[update]
+[update.modrinth]
+mod-id = "g646EoqQ"
+version = "e0MOX2WB"

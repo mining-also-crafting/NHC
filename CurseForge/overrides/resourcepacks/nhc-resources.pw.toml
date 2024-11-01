@@ -1,0 +1,8 @@
+name = "NHC Resources"
+filename = "NHC_Resources.zip"
+side = "both"
+
+[download]
+url = "https://objects.githubusercontent.com/github-production-release-asset-2e65be/881864087/382818cd-66f2-407d-ba8b-239e97ce1e1f?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241101%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241101T130328Z&X-Amz-Expires=300&X-Amz-Signature=f73ab45fd911474bc55e7c8e2774a165b2f0d0e7f829aec474a8f489fa44f266&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DNHC_Resources.zip&response-content-type=application%2Foctet-stream"
+hash-format = "sha256"
+hash = "a6dd3c624d7958b81bcdc88bedca94a2677b101de244b0d4332224dc07a74e90"

@@ -1,0 +1,10 @@
+{
+  "main_menu": {
+    "bottom_left": [
+    {"text":"Modpack version: 1.0.0 (CurseForge)"}
+    ],
+    "bottom_right": [
+    {"text":"Made for the NotHermitCraft server.","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/server/nothermitcraft/"}}
+    ]
+  }
+}

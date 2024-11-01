@@ -1,0 +1,13 @@
+name = "Seamless"
+filename = "seamless-2.3.0-fabric-1.21.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/rhyHyQke/versions/d4miRYgF/seamless-2.3.0-fabric-1.21.1.jar"
+hash-format = "sha1"
+hash = "851817e268b5faa27b9887072b4c701ef6609655"
+
+[update]
+[update.modrinth]
+mod-id = "rhyHyQke"
+version = "d4miRYgF"

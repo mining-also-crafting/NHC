@@ -1,0 +1,37 @@
+{
+    "version": 6,
+    "preventScoringSpawnKitItems": false,
+    "excludeSpawnKitItemsFromCards": true,
+    "preventLobbyChaos": false,
+    "lobbyTutorialBook": true,
+    "nightVisionInSpectator": true,
+    "nightVisionInPostgame": true,
+    "supportClientHud": true,
+    "shutDownWhenEveryoneDisconnects": true,
+    "shutDownWhenGameOverSeconds": null,
+    "unsafeSkipWorldClose": false,
+    "integrations": {
+        "vanish": true,
+        "chunky": true,
+        "chunkyWorlds": {
+            "minecraft:overworld": 8000,
+            "minecraft:the_nether": 1000
+        }
+    },
+    "databaseUrl": null,
+    "databaseUser": null,
+    "databasePass": null,
+    "syncStats": true,
+    "client": {
+        "showQuickStartButton": false,
+        "cardScale": 1.0,
+        "cardAlignment": "TOP_LEFT",
+        "cardOffsetX": 0,
+        "cardOffsetY": 0,
+        "cardOverlap": "UNDERNEATH",
+        "showMultipleCards": false,
+        "hideOnF3": true,
+        "hideOnChat": true,
+        "soundVolumes": {}
+    }
+}

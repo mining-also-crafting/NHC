@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "overrides": {
+    "fabricloader": {
+      "+depends": {
+        "fabricloader": ">=0.16.8"
+      }
+    },
+    "capecommand": {
+      "-depends": {
+        "minecraft": ""
+      }
+    },
+    "desiredservers": {
+      "-depends": {
+        "minecraft": ""
+      }
+    },
+    "debugify": {
+      "-depends": {
+        "minecraft": ""
+      }
+    }
+  }
+}

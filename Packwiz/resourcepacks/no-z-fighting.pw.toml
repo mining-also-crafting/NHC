@@ -1,0 +1,13 @@
+name = "No Z-Fighting"
+filename = "NoZ-Fighting-v1.5.zip"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/gfshuk3a/versions/wN3ltU30/NoZ-Fighting-v1.5.zip"
+hash-format = "sha1"
+hash = "b66d7f811e89ceb26970f039a19b86832bb129bf"
+
+[update]
+[update.modrinth]
+mod-id = "gfshuk3a"
+version = "wN3ltU30"

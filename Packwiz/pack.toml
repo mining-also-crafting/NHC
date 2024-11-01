@@ -1,13 +1,13 @@
 name = "NHC"
 author = "mining_also_crafting"
-version = "1.0.0-1.21.1"
+version = "1.0.0-1.21"
 description = "Allows for full participation on the NotHermitCraft server. Gives extra functionality during events."
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "73166589b07dea63ebcf8e13aa5807cf46ffbcaa9a1bc6f4674151d226842aa4"
+hash = "9b28f968ed019339168b1d37822d7cd3a10bdadc922426c925b5809fde67d185"
 
 [versions]
 fabric = "0.16.8"

@@ -1,0 +1,8 @@
+name = "Señor Bumbo Cacteeni"
+filename = "Señor_Bumbo_Cacteeni.zip"
+side = "both"
+
+[download]
+url = "https://objects.githubusercontent.com/github-production-release-asset-2e65be/881864087/0870170d-c7c2-4fa5-86ab-28ac5450ab73?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=releaseassetproduction%2F20241101%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241101T130330Z&X-Amz-Expires=300&X-Amz-Signature=28d614527b86b4de7699618a823f2eeb046a5214b39a90879bf3500050243435&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3DSenor_Bumbo_Cacteeni.zip&response-content-type=application%2Foctet-stream"
+hash-format = "sha256"
+hash = "063b5eb0df623420968f747c53c37beacc9b77b7163f52001f7c0c9b66327bf6"
