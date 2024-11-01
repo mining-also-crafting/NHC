@@ -1,0 +1,64 @@
+name: "Report an Issue"
+description: "Problems related to the unmodified modpack."
+labels:
+  - "bug"
+assignees:
+  - mining-also-crafting
+body:
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: "Confirm"
+      options:
+        - label: "I have not modified the modpack."
+          required: true
+        - label: "I have searched the [issue tracker](https://github.com/mining-also-crafting/NHC/issues) and confirm this is a new issue."
+          required: true
+
+  - type: dropdown
+    id: version
+    attributes:
+      label: "Modpack Version"
+      options:
+        - v1.0.0-1.21
+        - v1.0.0-1.21.1
+    validations:
+      required: true
+
+  - type: textarea
+    id: describe
+    attributes:
+      label: "Describe the Issue"
+      placeholder: |
+        A clear and concise description of what the issue is...
+
+        If applicable, attach screenshots or videos.
+      description: "Please open multiple bug reports if you are having more than one issue!"
+    validations:
+
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: "Steps to Reproduce"
+      placeholder: |
+        A clear and concise description of how to reproduce the issue...
+
+        If applicable, attach screenshots or videos.
+      description: "How can we cause this again? (if applicable)"
+    validations:
+      required: false
+
+  - type: textarea
+    id: info
+    attributes:
+      label: "More Info"
+      placeholder: |
+        I'm using CurseForge Launcher...
+
+        https://mclo.gs/example
+      description: "Please upload your logs to [mclo.gs](https://mclo.gs/) and paste the link here. (if applicable)"
+    validations:
+      required: false

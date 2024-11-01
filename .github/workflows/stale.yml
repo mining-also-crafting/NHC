@@ -1,0 +1,23 @@
+name: "Close Stale Issues"
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Runs daily at midnight UTC
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close Stale Issues
+        uses: actions/stale@v9.0.0
+        with:
+          stale-issue-label: "stale"
+          days-before-stale: 30
+          days-before-close: 7
+          stale-issue-message: "This issue has been automatically marked as stale due to inactivity. If this is still relevant, please add a comment to keep it open. Otherwise, it will be closed in 7 days."
+          close-issue-message: "Closing this issue as it has been marked stale and had no further activity."
+          only-issues: true
+          exempt-issue-labels: "intended, help wanted, incompatibility"
+          ignore-updates: true
+          operations-per-run: 30
+          only-labels: "bug, duplicate, fixed, suggestion, wiki"

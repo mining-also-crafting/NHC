@@ -1,0 +1,9 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Join us on Discord
+    url: https://discord.gg/spUkpDxJcz
+    about: "Feel free to ask questions on the Discord server."
+issue_templates:
+  - name: "Report an Issue"
+    path: "template.yml"
+    labels: ["bug"]

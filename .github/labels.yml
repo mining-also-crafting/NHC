@@ -1,0 +1,27 @@
+- name: bug
+  description: Something is not working
+  color: d73a4a
+- name: duplicate
+  description: This issue or pull request already exists
+  color: cfd3d7
+- name: fixed
+  description: The issue is fixed
+  color: 0E8A16
+- name: help wanted
+  description: Extra attention is needed
+  color: E9F6BE
+- name: incompatibility
+  description: These mods are not working
+  color: e4e669
+- name: intended
+  description: This will not be worked on
+  color: ffffff
+- name: suggestion
+  description: New feature or request
+  color: a2eeef
+- name: wiki
+  description: Improvements or additions to documentation
+  color: 0075ca
+- name: stale
+  description: Automatically marked as stale due to inactivity.
+  color: 36454F
