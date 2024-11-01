@@ -162,6 +162,7 @@
 
 ### Mods:
 - [1.21 Moddermore list](https://moddermore.net/list/ZJoJFERNPKft)
+- [1.21.1 Moddermore list](https://moddermore.net/list/K8yXuoQjAp1w)
 
 ### Resources:
 - [Devin's Badges](https://github.com/intergrav/devins-badges)

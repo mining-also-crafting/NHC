@@ -331,7 +331,7 @@ metafile = true
 
 [[files]]
 file = "mods/lithium.pw.toml"
-hash = "65e636524c7311fe98f308e26a2b67ed2589957aab04313e541c75afd701284a"
+hash = "b3b33c53f8356928f86223f26eaebd7a266d610f8628e5077cda196192b0b7e4"
 metafile = true
 
 [[files]]
@@ -441,7 +441,7 @@ metafile = true
 
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
-hash = "fd02dec7766ec9ee64830b6fa4ff7754c19f809a84dec4c7626106808be64e93"
+hash = "8c25e1f11bc4c2b151919d43d78ccf7da0da9af048f0a9324173ce840aaf5329"
 metafile = true
 
 [[files]]
