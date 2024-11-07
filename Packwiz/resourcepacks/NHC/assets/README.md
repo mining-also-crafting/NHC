@@ -48,6 +48,8 @@ Minor tweaks of [Enchanted Books from Mars](https://modrinth.com/resourcepack/di
 - Unbreaking
 - sweeping > sweeping_edge
 
+<p><a href=""><img src="https://github.com/mining-also-crafting/NHC/blob/main/branding/showcase/books-dyes.png?raw=true" width= "500" height="480" alt="books"></a></p>
+
 > These textures are not mine, they are included in Minecraft 1.21.2+
 
 ### Banner Patterns
