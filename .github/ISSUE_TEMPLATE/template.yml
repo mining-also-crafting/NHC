@@ -16,13 +16,11 @@ body:
         - label: "I have searched the [issue tracker](https://github.com/mining-also-crafting/NHC/issues) and confirm this is a new issue."
           required: true
 
-  - type: dropdown
+  - type: input
     id: version
     attributes:
       label: "Modpack Version"
-      options:
-        - v1.0.0-1.21
-        - v1.0.0-1.21.1
+      placeholder: "Example: 1.0.1-1.21.1"
     validations:
       required: true
 
