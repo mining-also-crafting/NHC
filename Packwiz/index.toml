@@ -14,7 +14,7 @@ hash = "b1ca45da0c38f73d18f9c36778ad0d02dc4e7bbe42955beac1e2eea8721e4f8f"
 
 [[files]]
 file = "config/entity_texture_features.json"
-hash = "74dbbc6f1c36d569d6b4173d297db342b44a88eb595f968cfbaef79b447222da"
+hash = "c36ba3ee662311c76a1bb577d43bda9cf68083d02bb7cd2f267df2038988c0c3"
 
 [[files]]
 file = "config/fabric_loader_dependencies.json"
@@ -31,6 +31,10 @@ hash = "7b227f2d720c9d81cea2d25ce382e62b9c17a1a3ca7714fda4486fbc587986f4"
 [[files]]
 file = "config/minihud.json"
 hash = "e54f52acab92ea839c06a0e2fd7cdb4dc3957aca4df89e104fe47a570c3d8072"
+
+[[files]]
+file = "config/picturesign.json"
+hash = "0c4a1636184d8dff28f0dcbc5fa58b0bb03a0d72a272200efc1e15ae4668f891"
 
 [[files]]
 file = "config/scoreboard-overhaul.json"
@@ -106,7 +110,7 @@ hash = "55e693cdf40a6cb56a41eba09141c49ade93995642807ef4ac39e8d1233507f2"
 
 [[files]]
 file = "config/yosbr/config/isxander-main-menu-credits.json"
-hash = "af4d9d43df599aa7efa278ef26383b62efb512082307a4009a5b7761a2196782"
+hash = "64379a5417397fb277514a2fe7a31de97150a198a8d00f638d75942a177e6b33"
 
 [[files]]
 file = "config/yosbr/config/malilib.json"
@@ -118,7 +122,7 @@ hash = "22caf99f6531254b612c35bc12aff9c2b6d121b038b2e418a1a429049d16c9e0"
 
 [[files]]
 file = "config/yosbr/config/modmenu.json"
-hash = "89e060d762c5b862d9720b9dc4a0725faf69d33559ed88a823a41d0c04530fd5"
+hash = "29aee84fd49e211cff282be6506f9c284a9eab216099d11e34a7bf7b2750ccb9"
 
 [[files]]
 file = "config/yosbr/config/notenoughanimations.json"
@@ -162,7 +166,7 @@ hash = "8245d1f01a9341626591f8257d8b7f0e3e8713ea1df248121b9a95608ec8980f"
 
 [[files]]
 file = "config/yosbr/options.txt"
-hash = "87ba63a361fad27517c861ba2f67e4be5799b24d311996ae7d6b2b8465970618"
+hash = "cfd7d44e8d03bceeeba46235be6eb1857be201101b1a95718af099b8c4927d0a"
 
 [[files]]
 file = "mods/appleskin.pw.toml"
@@ -400,6 +404,11 @@ hash = "695ddf149004a3755dbd34c655e96407d52b6e74c8fce70bdd19d2207fd63a71"
 metafile = true
 
 [[files]]
+file = "mods/picturesign.pw.toml"
+hash = "df28570d634aaf34fee0add2f05290ce975a4f664a82d49e9b30bce810d24580"
+metafile = true
+
+[[files]]
 file = "mods/placeholder-api.pw.toml"
 hash = "d0311de4c47e48ba0c1769253c7bd8fd541ed81c60823c539116a963e58c9128"
 metafile = true
@@ -490,6 +499,11 @@ hash = "6cb2a4cd4eb40eaf19bbb54a6d8fa23643470147e86e19fe04b820e170998ed3"
 metafile = true
 
 [[files]]
+file = "mods/watermedia.pw.toml"
+hash = "0c99846d326f4aac369d7fcda7be4c7680bf621a5b95759fa9a29786f23da7ad"
+metafile = true
+
+[[files]]
 file = "mods/yacl.pw.toml"
 hash = "b18ddc19b0a70f0ab2b4e652210d887d0c28b5192ea249cb0e8d0115373d8650"
 metafile = true
@@ -530,8 +544,13 @@ hash = "256b67c869770482657d4dd31124bf705c780c5c798206af522bcd5392c7ded9"
 metafile = true
 
 [[files]]
+file = "resourcepacks/in-game-brewing-guide.pw.toml"
+hash = "39a608e9c25e2bae0f02047e62f28faa4a9006407fc3aa4b05f22d70318d4094"
+metafile = true
+
+[[files]]
 file = "resourcepacks/nhc-resources.pw.toml"
-hash = "81f57f5d936de30f2bb8ca6d8cf50027f27a39a7aebbfdd9a0be68203901fdad"
+hash = "587d14ee3054555ca03c5d18f3dda292b65a6b81e957eb8657ce89e659a1b83a"
 metafile = true
 
 [[files]]
@@ -546,7 +565,7 @@ metafile = true
 
 [[files]]
 file = "resourcepacks/senor-bumbo-cacteeni.pw.toml"
-hash = "a63fcce307127f14e8455a90264cfa4ba337a52c6321e6e2e38254ede221f5ce"
+hash = "34c94fa00c0f3906f02d709c071157d215dbe910ab3b5b214f69d1ad1d6f0986"
 metafile = true
 
 [[files]]

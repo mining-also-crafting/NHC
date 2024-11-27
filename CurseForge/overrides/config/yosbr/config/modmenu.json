@@ -9,7 +9,7 @@
   "mod_count_location": "title_screen",
   "hide_mod_links": false,
   "show_libraries": false,
-  "hide_mod_license": false,
+  "hide_mod_license": true,
   "hide_badges": true,
   "hide_mod_credits": false,
   "easter_eggs": false,
@@ -75,6 +75,7 @@
     "supermartijn642configlib",
     "visuality",
     "wakes",
+    "watermedia",
     "yosbr",
     "zoomglass"
   ],

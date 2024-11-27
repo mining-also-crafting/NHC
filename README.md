@@ -34,6 +34,7 @@
 - [**Freecam (Modrinth Edition)**](https://modrinth.com/mod/freecam) - Take screenshots or position Litematica schematics. `press F4`
 - [**Litematica**](https://modrinth.com/mod/litematica) - Easily bring your creations to the server. `press F12` (default "tool" is `minecraft:echo_shard`)
 - [**More Chat History**](https://modrinth.com/mod/morechathistory) - Increases the maximum length of chat history.
+- [**PictureSign**](https://modrinth.com/mod/picturesign) - Use signs to display pictures and videos from the web. _off by default_ `use mod menu`
 - [**Remove Reloading Screen**](https://modrinth.com/mod/rrls) - Makes resource packs load in the background.
 - [**Yet Another Bingo**](https://modrinth.com/mod/yet-another-minecraft-bingo) - A Bingo/Lockout mod used during events. Has extra utility when on the client.
 - [**Zoomglass**](https://modrinth.com/mod/zoomglass) - Use a spyglass quickly, with a press of a button! A vanilla friendly zoom alternative. `press Z`
@@ -84,15 +85,15 @@
 <details><summary><h3>Library / API</h3></summary>
 
 - [**Architectury API**](https://modrinth.com/mod/architectury-api) - An intermediary api aimed to ease developing multiplatform mods.
-- *[**CIT Resewn**](https://modrinth.com/mod/cit-resewn) - **OptiFine format**, Custom Item Textures for resource packs.
+- *[**CIT Resewn**](https://modrinth.com/mod/cit-resewn) - Custom Item Textures for resource packs.
 - [**Cloth Config API**](https://modrinth.com/mod/cloth-config) - Configuration Library for Minecraft Mods.
-- *[**Continuity**](https://modrinth.com/mod/continuity) - **OptiFine format**, allows for efficient connected textures.
-- *[**[EMF] Entity Model Features**](https://modrinth.com/mod/entity-model-features) - **OptiFine format**, Custom Entity Model replacement mod.
-- *[**[ETF] Entity Texture Features**](https://modrinth.com/mod/entitytexturefeatures) - **OptiFine format**, Emissive, Random & Custom textures for entities.
+- *[**Continuity**](https://modrinth.com/mod/continuity) - Allows for efficient connected textures.
+- *[**[EMF] Entity Model Features**](https://modrinth.com/mod/entity-model-features) - Custom Entity Model replacement mod.
+- *[**[ETF] Entity Texture Features**](https://modrinth.com/mod/entitytexturefeatures) - Emissive, Random & Custom textures for entities.
 - [**Fabric API**](https://modrinth.com/mod/fabric-api) - Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain.
 - [**Fabric Language Kotlin**](https://modrinth.com/mod/fabric-language-kotlin) - This is a mod that enables usage of the Kotlin programming language for Fabric mods.
 - [**Indium**](https://modrinth.com/mod/indium) - Sodium addon providing support for the Fabric Rendering API, based on Indigo.
-- *[**OptiGUI**](https://modrinth.com/mod/optigui) - **OptiFine format**, custom GUI textures.
+- *[**OptiGUI**](https://modrinth.com/mod/optigui) - Custom GUI textures.
 - [**MaLiLib**](https://modrinth.com/mod/malilib) - A library mod for client-side mods. Contains common/shared code of masa's mods.
 - [**Polymer**](https://modrinth.com/mod/polymer) - Library for creating better server side content during events. Has extra utility when on the client.
 - [**Reese's Sodium Options**](https://modrinth.com/mod/reeses-sodium-options) - Alternative Options Menu for Sodium.
@@ -100,8 +101,10 @@
 - [**SuperMartijn642's Config Lib**](https://modrinth.com/mod/supermartijn642s-config-lib) - Config Lib makes dealing with config files just a bit easier.
 - [**TCDCommons API**](https://modrinth.com/mod/tcdcommons) - TheCSDev's personal library mod for the Minecraft modding enviroment.
 - [**Text Placeholder API**](https://modrinth.com/mod/placeholder-api) - Placeholder and Text manipulation library for your Minecraft mods.
+- [**WATERMeDIA**](https://modrinth.com/mod/watermedia) - Library and API using VLC for multimedia integration with Minecraft.
 - [**YetAnotherConfigLib (YACL)**](https://modrinth.com/mod/yacl) - A builder-based configuration library for Minecraft.
 
+***OptiFine format**
 </details>
 
 <details><summary><h3>Modpack specific</h3></summary>
@@ -142,9 +145,10 @@
 - [**Enchanted Books from Mars**](https://modrinth.com/mod/different-textures-for-enchanted-books) - Changes textures of enchanted books for better clarity. ([CIT](https://modrinth.com/mod/cit-resewn))
 - [**Fast Better Grass**](https://modrinth.com/resourcepack/fast-better-grass) - Makes grass and related blocks use the top texture on the sides. _off by default._
 - [**Fresh Animations**](https://modrinth.com/resourcepack/fresh-animations) - Make your game like the trailers! Dynamic animated entities. ([EMF](https://modrinth.com/mod/entity-model-features)) _off by default_
+- [**In-Game Brewing Guide**](https://modrinth.com/resourcepack/in-game-brewing-guide) - Easily brew potions within the "Brewing Stand" UI.
 - [**No Z-Fighting**](https://modrinth.com/resourcepack/no-z-fighting) - Fixes _many_ of those annoying flickering glitches.
 - [**Recolourful Containers GUI + HUD**](https://modrinth.com/resourcepack/recolourful-containers-gui) -  Immersive, interesting and colourful GUIs. ([OptiGUI](https://modrinth.com/mod/optigui)) _off by default_
-- [Señor Bumbo Cacteeni](https://www.planetminecraft.com/texture-pack/se-or-bumbo-cacteeni/) - by [ShamanDorn](https://www.planetminecraft.com/member/shamandorn/) on PlanetMinecraft but updated/fixed.
+- [**Señor Bumbo Cacteeni**](https://www.planetminecraft.com/texture-pack/se-or-bumbo-cacteeni/) - by [**ShamanDorn**](https://www.planetminecraft.com/member/shamandorn/) on PlanetMinecraft but updated/fixed.
 <details><summary>NHC Resources - All of the NHC resource packs squashed together.</summary>
 
 - Minecraft (1.21.2) - Adds the new banner patterns and redstone torches.
@@ -312,7 +316,7 @@ Inventory
 - Zoom - `Z` (requires you to have a [Spyglass](https://minecraft.wiki/w/Spyglass#Obtaining) in your inventory, thanks to [Zoomglass](https://modrinth.com/mod/zoomglass))
 
 Miscellaneous 
-- Open Status GUI - `U` - Allows you set a status which can be seen in the player list. `press TAB`
+- Open Status GUI - `U` - Allows you set a status which can be seen in the player list. `hold TAB`
 
 Freecam
 - Toggle Freecam - `F4` - Come out of your body and fly around. (with limitations)
@@ -325,10 +329,20 @@ press `V` to set up [Simple Voice Chat](https://modrinth.com/plugin/simple-voice
 - Push to Talk - `Not bound`
 - Voice Chat GUI - `V`
 - Voice Chat Group - `G`
+Everything can be configured through the `V` menu
 
 Iris
 - Shader Pack Selection Screen - `F10`
 - Toggle Shaders - `F9` _off by default_
+
+PictureSign
+- Copy Text from Sign - `Not bound` by default
+
+Scoreboard Overhaul
+- Show / Expand Scoreboard - `Not bound` by default
+
+Yet Another Bingo
+- View Bingo Card - `Not bound` by default
 
 Keys not listed in key binds
 - Toggle MiniHUD - `F6`
@@ -355,7 +369,7 @@ Mods can be easily configured in-game by clicking the `Mods` button and double c
 Click the shader pack you want to use then click `done`. \
 You can "+Drag and Drop [Shader Packs](https://modrinth.com/shaders) to add" them to the client in the Shaderpack Selection Screen.
 
-[Complementary Shaders - Reimagined](https://modrinth.com/shader/complementary-reimagined) and [**Mellow**](https://modrinth.com/shader/mellow) are off my default. \
+[Complementary Shaders - Reimagined](https://modrinth.com/shader/complementary-reimagined) and [**Mellow**](https://modrinth.com/shader/mellow) are off by default. \
 Both come with slightly tweaked settings based on "potato" settings, though it's recommended to play around with `Shader Pack Settings...` to suit your tastes.
 
 
@@ -386,6 +400,7 @@ On the SMP server, type `/seed` to see slime chunks.
 
 The default main menu hotkey is `F8` instead of `H + C`. \
 The default toggle hotkey is `F6` instead of `H`.
+Toggle the Light Level Overlay with `F7` by default.
 
 Default
 - player coordinates.
@@ -400,6 +415,24 @@ The sphere shape is currently slightly broken since the mod update for MC 1.18, 
 
 As a temporary workaround you may be able to use the Adjustable Spawn Sphere shape instead, as it uses different generation code. However that sphere is not perfectly symmetrical horizontally vs. vertically due to how the boundary condition works.
 </details>
+
+
+
+---
+
+
+
+### PictureSign?
+> Wiki [How to use Picture Sign](https://www.midnightdust.eu/wiki/picturesign/). \
+> Video [(teaser) Watch videos in Minecraft](https://www.youtube.com/watch?v=ZGGgSAkPWm0).
+
+This mod allows you to participate with Deepslate Cinemas and gives extra functionality during other events.
+
+Impressive but easily obtrusive. It has been turned off by default to prevent this. \
+To make use of this mod for special occasions, change the following settings using Mod Menu: \
+(`ESC`) > `Mods` > `PictureSign` \
+`Enable Pictures` > `Yes` \
+`Enable Multimedia` > `Yes`
 
 
 

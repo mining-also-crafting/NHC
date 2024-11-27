@@ -1,7 +1,7 @@
 {
     "formatVersion": 1,
     "game": "minecraft",
-    "versionId": "1.0.0-1.21.1",
+    "versionId": "1.0.1-1.21.1",
     "name": "NHC",
     "summary": "Allows for full participation on the NotHermitCraft server. Gives extra functionality during events.",
     "files": [
@@ -741,6 +741,21 @@
             "fileSize": 71859
         },
         {
+            "path": "mods/picturesign-fabric-2.0.1.jar",
+            "hashes": {
+                "sha1": "daab5872b080a2bdeeda218587a78d55745df60c",
+                "sha512": "2a43d87307157f0d7fdf321e9e7dfff12c6589e309fddd6478dd033a3f9440330e601d3c96935c5a23535366b01ae428f4e2f3cd08f49a32e75f9578be51b507"
+            },
+            "env": {
+                "client": "required",
+                "server": "unsupported"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/9WP2dmkk/versions/Fufi3aiS/picturesign-fabric-2.0.1.jar"
+            ],
+            "fileSize": 152176
+        },
+        {
             "path": "mods/placeholder-api-2.4.1+1.21.jar",
             "hashes": {
                 "sha1": "5f61f50e36f1f957dbb87eda02da95d847b4a943",
@@ -1011,6 +1026,21 @@
             "fileSize": 421245
         },
         {
+            "path": "mods/watermedia-2.0.75.jar",
+            "hashes": {
+                "sha1": "579c41ae9dfc2a44c2164c84e8e5062dba30cc74",
+                "sha512": "5cb2e84e34662fcb930aa99e75669c44671764fff992672d4901107e220e0703b0d3c96dee1467ae2dcc204c66f653047e025d645ab266205cc4c725d4e817a8"
+            },
+            "env": {
+                "client": "required",
+                "server": "unsupported"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/G922NeHS/versions/YeFu9g4R/watermedia-2.0.75.jar"
+            ],
+            "fileSize": 27600243
+        },
+        {
             "path": "mods/yosbr-0.1.2.jar",
             "hashes": {
                 "sha1": "f0340e9c0bc95d67f3f3e9c1cd79b61054af11f9",
@@ -1039,6 +1069,21 @@
                 "https://cdn.modrinth.com/data/jRrJYVVU/versions/tvHch2Lw/zoomglass-1.2.jar"
             ],
             "fileSize": 35696
+        },
+        {
+            "path": "resourcepacks/Brewing Guide 1.20.1.zip",
+            "hashes": {
+                "sha1": "6e894dde504749f95f77734578e2bd8b64d34f6b",
+                "sha512": "dcd901ecb044649ea8f34461fb605baf6814b245b7b0faea1c7814e6f8190305cdd305dbbb3dabfcfbf7e5b2e52351471a3ca8c23bfececcf6d79161777b9667"
+            },
+            "env": {
+                "client": "required",
+                "server": "unsupported"
+            },
+            "downloads": [
+                "https://cdn.modrinth.com/data/Rspf9Ia2/versions/kuRW0Jy4/Brewing%20Guide%201.20.1.zip"
+            ],
+            "fileSize": 42000
         },
         {
             "path": "resourcepacks/EnchantedBooks1.13-1.21.1.zip",
@@ -1162,7 +1207,7 @@
         }
     ],
     "dependencies": {
-        "fabric-loader": "0.16.8",
+        "fabric-loader": "0.16.9",
         "minecraft": "1.21.1"
     }
 }
