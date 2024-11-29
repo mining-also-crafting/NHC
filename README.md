@@ -190,6 +190,13 @@
 
 <details><summary>Installation</summary>
 
+
+| Minecraft | ? | Status |
+|---|---|---|
+| 1.21 | ❌ | contains critical exploits |
+| 1.21.1 | ✅ | supported |
+
+
 ## Modrinth
 
 ### You can create and play Modrinth modpacks using the [Modrinth App](https://modrinth.com/app).
