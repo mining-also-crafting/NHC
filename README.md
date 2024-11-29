@@ -84,15 +84,15 @@
 <details><summary><h3>Library / API</h3></summary>
 
 - [**Architectury API**](https://modrinth.com/mod/architectury-api) - An intermediary api aimed to ease developing multiplatform mods.
-- *[**CIT Resewn**](https://modrinth.com/mod/cit-resewn) - **OptiFine format**, Custom Item Textures for resource packs.
+- *[**CIT Resewn**](https://modrinth.com/mod/cit-resewn) - Custom Item Textures for resource packs.
 - [**Cloth Config API**](https://modrinth.com/mod/cloth-config) - Configuration Library for Minecraft Mods.
-- *[**Continuity**](https://modrinth.com/mod/continuity) - **OptiFine format**, allows for efficient connected textures.
-- *[**[EMF] Entity Model Features**](https://modrinth.com/mod/entity-model-features) - **OptiFine format**, Custom Entity Model replacement mod.
-- *[**[ETF] Entity Texture Features**](https://modrinth.com/mod/entitytexturefeatures) - **OptiFine format**, Emissive, Random & Custom textures for entities.
+- *[**Continuity**](https://modrinth.com/mod/continuity) - Allows for efficient connected textures.
+- *[**[EMF] Entity Model Features**](https://modrinth.com/mod/entity-model-features) - Custom Entity Model replacement mod.
+- *[**[ETF] Entity Texture Features**](https://modrinth.com/mod/entitytexturefeatures) - Emissive, Random & Custom textures for entities.
 - [**Fabric API**](https://modrinth.com/mod/fabric-api) - Lightweight and modular API providing common hooks and intercompatibility measures utilized by mods using the Fabric toolchain.
 - [**Fabric Language Kotlin**](https://modrinth.com/mod/fabric-language-kotlin) - This is a mod that enables usage of the Kotlin programming language for Fabric mods.
 - [**Indium**](https://modrinth.com/mod/indium) - Sodium addon providing support for the Fabric Rendering API, based on Indigo.
-- *[**OptiGUI**](https://modrinth.com/mod/optigui) - **OptiFine format**, custom GUI textures.
+- *[**OptiGUI**](https://modrinth.com/mod/optigui) - Custom GUI textures.
 - [**MaLiLib**](https://modrinth.com/mod/malilib) - A library mod for client-side mods. Contains common/shared code of masa's mods.
 - [**Polymer**](https://modrinth.com/mod/polymer) - Library for creating better server side content during events. Has extra utility when on the client.
 - [**Reese's Sodium Options**](https://modrinth.com/mod/reeses-sodium-options) - Alternative Options Menu for Sodium.
@@ -102,6 +102,7 @@
 - [**Text Placeholder API**](https://modrinth.com/mod/placeholder-api) - Placeholder and Text manipulation library for your Minecraft mods.
 - [**YetAnotherConfigLib (YACL)**](https://modrinth.com/mod/yacl) - A builder-based configuration library for Minecraft.
 
+***OptiFine format**
 </details>
 
 <details><summary><h3>Modpack specific</h3></summary>
@@ -144,7 +145,7 @@
 - [**Fresh Animations**](https://modrinth.com/resourcepack/fresh-animations) - Make your game like the trailers! Dynamic animated entities. ([EMF](https://modrinth.com/mod/entity-model-features)) _off by default_
 - [**No Z-Fighting**](https://modrinth.com/resourcepack/no-z-fighting) - Fixes _many_ of those annoying flickering glitches.
 - [**Recolourful Containers GUI + HUD**](https://modrinth.com/resourcepack/recolourful-containers-gui) -  Immersive, interesting and colourful GUIs. ([OptiGUI](https://modrinth.com/mod/optigui)) _off by default_
-- [Señor Bumbo Cacteeni](https://www.planetminecraft.com/texture-pack/se-or-bumbo-cacteeni/) - by [ShamanDorn](https://www.planetminecraft.com/member/shamandorn/) on PlanetMinecraft but updated/fixed.
+- [**Señor Bumbo Cacteeni**](https://www.planetminecraft.com/texture-pack/se-or-bumbo-cacteeni/) - by [**ShamanDorn**](https://www.planetminecraft.com/member/shamandorn/) on PlanetMinecraft but updated/fixed.
 <details><summary>NHC Resources - All of the NHC resource packs squashed together.</summary>
 
 - Minecraft (1.21.2) - Adds the new banner patterns and redstone torches.
@@ -162,6 +163,7 @@
 
 ### Mods:
 - [1.21 Moddermore list](https://moddermore.net/list/ZJoJFERNPKft)
+- [1.21.1 Moddermore list](https://moddermore.net/list/K8yXuoQjAp1w)
 
 ### Resources:
 - [Devin's Badges](https://github.com/intergrav/devins-badges)
@@ -184,6 +186,13 @@
 
 
 <details><summary>Installation</summary>
+
+
+| Minecraft | ? | Status |
+|---|---|---|
+| 1.21 | ❌ | contains critical exploits |
+| 1.21.1 | ✅ | supported |
+
 
 ## Modrinth
 
@@ -311,7 +320,7 @@ Inventory
 - Zoom - `Z` (requires you to have a [Spyglass](https://minecraft.wiki/w/Spyglass#Obtaining) in your inventory, thanks to [Zoomglass](https://modrinth.com/mod/zoomglass))
 
 Miscellaneous 
-- Open Status GUI - `U` - Allows you set a status which can be seen in the player list. `press TAB`
+- Open Status GUI - `U` - Allows you set a status which can be seen in the player list. `hold TAB`
 
 Freecam
 - Toggle Freecam - `F4` - Come out of your body and fly around. (with limitations)
@@ -324,6 +333,7 @@ press `V` to set up [Simple Voice Chat](https://modrinth.com/plugin/simple-voice
 - Push to Talk - `Not bound`
 - Voice Chat GUI - `V`
 - Voice Chat Group - `G`
+Everything can be configured through the `V` menu
 
 Iris
 - Shader Pack Selection Screen - `F10`
@@ -354,7 +364,7 @@ Mods can be easily configured in-game by clicking the `Mods` button and double c
 Click the shader pack you want to use then click `done`. \
 You can "+Drag and Drop [Shader Packs](https://modrinth.com/shaders) to add" them to the client in the Shaderpack Selection Screen.
 
-[Complementary Shaders - Reimagined](https://modrinth.com/shader/complementary-reimagined) and [**Mellow**](https://modrinth.com/shader/mellow) are off my default. \
+[Complementary Shaders - Reimagined](https://modrinth.com/shader/complementary-reimagined) and [**Mellow**](https://modrinth.com/shader/mellow) are off by default. \
 Both come with slightly tweaked settings based on "potato" settings, though it's recommended to play around with `Shader Pack Settings...` to suit your tastes.
 
 
@@ -385,6 +395,7 @@ On the SMP server, type `/seed` to see slime chunks.
 
 The default main menu hotkey is `F8` instead of `H + C`. \
 The default toggle hotkey is `F6` instead of `H`.
+Toggle the Light Level Overlay with `F7` by default.
 
 Default
 - player coordinates.
